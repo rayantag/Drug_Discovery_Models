@@ -4,7 +4,7 @@ As a result, I tried a different approach, drawing inspiration from "Deep genera
 
 I am currently exploring other models that do not require extensive experimental data/docking algorithms for ligand generation, and once this is accomplished I will benchmark the generated compounds with MOSES or some other accepted format. 
 
-DEMO: Currently the demo version can be viewed at https://main--sparkling-fox-28df8d.netlify.app/. The user input is processed by a pretrained BioBERT model fine-tuned on disease-gene associativity scores, and then converted into the corresponding amino acid sequence. During fine-tuning, gradual unfreezing and slanted triangular learning rates were used; however, predictions were very volatile and I will use a different approach altogether. Knowledge graphs mapping diseases to potential genes based on PubMed abstracts are an alternative, and I have also begun using Amazon Omics for GWAS using the breadth of -omics data available online. More to come.
+DEMO: Currently an very **PRIMITIVE** demo version can be viewed at https://main--sparkling-fox-28df8d.netlify.app/. The user input is processed by a pretrained BioBERT model fine-tuned on disease-gene associativity scores, and then converted into the corresponding amino acid sequence. During fine-tuning, gradual unfreezing and slanted triangular learning rates were used; however, predictions were very volatile and I will use a different approach altogether. Knowledge graphs mapping diseases to potential genes based on PubMed abstracts are an alternative, and I have also begun using Amazon Omics for GWAS using the breadth of -omics data available online. More to come.
 
 Sources: 
 
